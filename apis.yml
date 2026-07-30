@@ -1,7 +1,25 @@
 aid: maze-therapeutics
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/maze-therapeutics.png
 name: Maze Therapeutics
-description: Maze Therapeutics is a company surfaced as a portfolio company of a16z, gv and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Maze Therapeutics is a clinical-stage precision medicine company developing
+  small-molecule and other treatments for common diseases with significant unmet medical
+  need, with a focus on kidney disease. Its Compass platform pairs human genetics with
+  variant functionalization to connect specific genetic drivers to disease biology and
+  design targeted medicines, including programs for APOL1-mediated kidney disease and
+  SLC6A19-related conditions. Surfaced as a portfolio company of a16z and gv, it was
+  added to the API Evangelist network as a lead; enrichment confirmed it publishes no
+  public developer API, documentation, or discovery surface.
 url: https://raw.githubusercontent.com/api-evangelist/maze-therapeutics/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,9 +30,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Precision Medicine
+- Biotechnology
+- Genetics
+- Kidney Disease
+- Drug Discovery
+- Healthcare
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,5 +46,12 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/maze-therapeutics-domain-security.yml
 - type: Website
-  url: mazetx.com
+  url: https://mazetx.com
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
